@@ -1,0 +1,25 @@
+.article {
+    padding: 1rem;
+    max-width: 768px;
+    margin: auto;
+}
+
+.article-img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.article-title {
+margin-bottom: 2rem;
+}
+
+.article-text {
+margin-bottom: 2rem;
+}
+
+.article-link {
+
+}
