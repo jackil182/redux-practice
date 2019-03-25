@@ -1,0 +1,46 @@
+.AddContactModal {
+  background-color: #fff;
+  padding: 2rem 2rem 0;
+  position: relative;
+}
+
+.AddContactModal__top {
+  min-width: 25rem;
+  max-width: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AddContactModal__form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.AddContactModal__img {
+  max-width: 13rem;
+  max-height: 13rem;
+}
+
+.Button--close {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: -.7rem;
+  right: -.7rem;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #007BFF;
+}
+
+.Button--close:focus {
+  outline: none;
+}
+
+.Button--close:hover {
+  background-color: #007BFF;
+  color: #fff;
+}

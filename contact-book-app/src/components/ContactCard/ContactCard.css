@@ -1,0 +1,50 @@
+.ContactCard {
+  width: 23%;
+  min-width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem;
+  flex-wrap: wrap;
+  /* border: 2px solid #007BFF; */
+  border-radius: 5px;
+  background-color: #eee;
+  color: #05908F;
+  padding: .2rem 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
+}
+
+.ContactCard__title, .ContactCard__tel, .ContactCard__email {
+  flex-basis: 100%;
+  padding: .3rem;
+}
+
+.ContactCard__title {
+  text-transform: capitalize;
+}
+
+.btn--edit, .btn--edit:focus, .btn--delete, .btn--delete:focus {
+  width: 100%;
+  margin: .5rem 0 0 0;
+  margin-bottom: 0;
+  padding: .5rem;
+  color: #eee;
+  box-shadow: none;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn--edit:hover, .btn--edit:active {
+  width: 100%;
+  background-color: #05749A;
+}
+
+.btn--delete, .btn--delete:focus {
+  margin-top: 0;
+  width: 100%;
+  background-color: #024083;
+}
+
+.btn--delete:hover, .btn--delete:active {
+  background-color: #901A11;
+}

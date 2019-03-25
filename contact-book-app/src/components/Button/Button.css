@@ -1,0 +1,63 @@
+.btn {
+  position: relative;
+  cursor: pointer;
+
+  display: block;
+  margin: 30px auto 1rem;
+  padding: .8rem 1rem;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
+  
+  background-color: #05908F;
+  color: #ecf0f1;
+  
+  transition: background-color .3s;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #05749A;
+}
+
+.btn:active {
+  top: 3px;
+  box-shadow: none;
+}
+
+.btn > * {
+  position: relative;
+}
+
+
+.btn:before {
+  content: "";
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  display: block;
+  width: 0;
+  padding-top: 0;
+    
+  border-radius: 100%;
+  
+  background-color: rgba(236, 240, 241, .3);
+  
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+  width: 120%;
+  padding-top: 120%;
+  
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}

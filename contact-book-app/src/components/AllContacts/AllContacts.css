@@ -1,0 +1,6 @@
+.AllContacts {
+  display: flex;
+  max-width: 60rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
